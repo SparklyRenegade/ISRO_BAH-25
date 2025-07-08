@@ -78,20 +78,18 @@ All rasters are aligned and resampled to 30m resolution.
 ```bash
 git clone https://github.com/<your-username>/isro-forest-fire-simulation.git
 cd isro-forest-fire-simulation
+```
 
-### 2. Prepare Data
+## 2. Prepare Data
 Place all raster files in the data/ folder.
 Ensure all rasters are resampled to 30m and correctly georeferenced.
 
-### 3. Run the Pipeline
+## 3. Run the Pipeline
 Start with ISRO_EDA_&_Data_Processing.ipynb to prepare and patchify inputs.
 Train the UNet model using ISRO_Model_F.ipynb for fire zone prediction.
 Use ISRO_CA.ipynb to run fire spread simulation over multiple time intervals.
 
-### 4. Sample Outputs
+## Sample Outputs
 Fire probability map for next-day risk zones
 Simulated spread maps: fire_spread_1h.tif, fire_spread_2h.tif, ..., fire_spread_12h.tif
 Optional animation: fire_spread_animation.gif
-
-
-

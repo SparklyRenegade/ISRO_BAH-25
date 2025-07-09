@@ -1,4 +1,5 @@
 # Forest Fire Prediction and Simulation using AI/ML – ISRO BAH 2025
+![image](https://github.com/user-attachments/assets/466243f9-40d3-4197-a475-d279d23535b8)
 
 ## Problem Statement
 This project addresses **Problem Statement-1** of ISRO BAH 2025:  
